@@ -22,7 +22,7 @@ $tg->cmd('vid:<<:any>>', function ($video_id, $option) use ($tg, $y, $message) {
 
     if (!strlen($video_id)) {
 
-        $tg->sendMessage("vid:<youtube video ID>", $tg->getChatId());
+        $tg->sendMessage("vid:<325630130>", $tg->getChatId());
         return;
     }
 
